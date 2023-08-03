@@ -1,39 +1,25 @@
 # Change Log
 
-## [1.0.3] 2023-04-03
-### Changes
+## [1.0.1] 2021-09-17
+### Improvements
 
-- Bump Design: [Django Admin Soft](https://github.com/app-generator/django-admin-soft-dashboard) `v1.0.11`
+- Bump Django Codebase to [v2.0.4](https://github.com/app-generator/boilerplate-code-django-dashboard/releases)
+- Dependencies update (all packages)
+  - Use Django==3.2.6 (latest stable version)
+- Better Code formatting
+- Improved Files organization
+- Optimize imports
+- Docker Scripts Update 
+- Tooling:
+  - Gulp SASS compilation script   
+  - `Update README` - Recompile SCSS (new section)
+- Fixes: 
+  - Patch 500 Error when authenticated users access `admin` path (no slash at the end)
+  - Patch [#16](https://github.com/app-generator/boilerplate-code-django-dashboard/issues/16): Minor issue in Docker 
 
-## [1.0.2] 2023-01-29
-### Changes
-
-- Bump Design: [Django Admin Soft](https://github.com/app-generator/django-admin-soft-dashboard) `v1.0.8`
-- DOCS Update (readme). New sections:
-  - `How to customize the theme`
-  - Render deployment
-- Configure the project to use `home/templates`
-- Added `custom_footer` sample
-
-## [1.0.1] 2023-01-27
-### Changes
-
-- Updated Codebase
-- Latest **[Django](https://appseed.us/admin-dashboards/django/)** Version
-- Theme-able UI (no more hardcoded inside the project)
-- Theme: [Django Admin Soft](https://github.com/app-generator/django-admin-soft-dashboard)
-  - Usable via `PIP`
-- CI/CD included via `Render`
-
-## [1.0.0] 2021-10-28
+## [1.0.0] 2021-05-25
 ### Initial Release
 
-- UI Kit: Soft UI Dashboard v1.0.1
-- Django Codebase Version [v2.0.4](https://github.com/app-generator/boilerplate-code-django-dashboard/releases)
-  - Dependencies update (all packages)
-    - Use Django==3.2.6 (latest stable version)
-  - Better Code formatting
-  - Improved Files organization
-  - Optimize imports
-  - Docker Scripts Update
-- Tooling: added scripts to recompile the SCSS files (via Gulp)
+- UI Version: Material Dashboard PRO - v2.1.2
+- Codebase: [Django Dashboard](https://github.com/app-generator/boilerplate-code-django-dashboard) v1.0.4
+- Jinja Version: [Jinja Material PRO](https://github.com/app-generator/jinja-material-dashboard-pro) v1.0.2
